@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class LottoFactory {
 
-    public static Lotto createWinningLotto() {
+    public static Lotto create() {
         return new Lotto(Randoms.pickUniqueNumbersInRange(1, 45, 6));
     }
 }

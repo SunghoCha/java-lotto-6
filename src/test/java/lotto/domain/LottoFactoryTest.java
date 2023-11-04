@@ -6,6 +6,6 @@ public class LottoFactoryTest {
 
     @Test
     void Lotto생성() {
-      LottoFactory.createWinningLotto();
+      LottoFactory.create();
     }
 }
